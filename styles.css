@@ -65,13 +65,13 @@ p {
     font-weight: 400;
 }
 
-.description_1 {
+.description_light {
     margin-top: 30px;
     color:rgba(134, 135, 139, 1);
     ;
 }
 
-.description_2 {
+.description_dark {
     margin-top: 30px;
     color: rgba(255, 255, 255, 0.8);
 }
