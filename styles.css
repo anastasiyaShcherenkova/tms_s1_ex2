@@ -35,7 +35,6 @@ main {
     left: calc( 100% / 2 - 32px );
     width: 64px;
     height: 2px;
-    background-color: #E72424;
 }
 
 .title_light {
@@ -45,6 +44,7 @@ main {
 }
 
 .title_light::after {
+    content: '';
     background-color: #E72424;
 }
 
@@ -55,6 +55,7 @@ main {
 }
 
 .title_dark::after {
+    content: '';
     background-color: #FFFFFF;
 }
 
